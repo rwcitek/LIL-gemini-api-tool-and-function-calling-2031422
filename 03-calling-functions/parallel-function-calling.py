@@ -88,7 +88,7 @@ config = types.GenerateContentConfig(
 prompt = "I'm planning a trip to Tokyo. Can you give me the current temperature, time zone, and population information for Tokyo? I need all this information at once"
 
 response = client.models.generate_content(
-    model="gemini-2.5-flash",
+    model="gemini-3.6-flash",
     contents=prompt,
     config=config
 )

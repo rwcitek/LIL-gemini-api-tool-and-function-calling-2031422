@@ -75,7 +75,7 @@ config = types.GenerateContentConfig(
 )
 
 response = client.models.generate_content(
-    model="gemini-2.5-flash",
+    model="gemini-3.6-flash",
     contents= "Can you check if 'john.doe@company-mail.com' is a valid email address? I want to make sure it's properly formatted.",
     config=config
 )

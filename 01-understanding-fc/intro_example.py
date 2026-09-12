@@ -48,7 +48,7 @@ user_question = "What is 25 + 37?"
 print(f"❓ User asks: {user_question}")
 
 response = client.models.generate_content(
-    model="gemini-2.5-flash",
+    model="gemini-3.6-flash",
     contents=user_question,
     config=config,
 )

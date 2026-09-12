@@ -13,7 +13,7 @@ url2 = "https://www.thepioneerwoman.com/food-cooking/recipes/a10727/roast-chicke
 prompt = f"Compare the ingredients and cooking times from the recipes at {url1} and {url2}"
 
 response = client.models.generate_content(
-    model="gemini-2.5-flash",
+    model="gemini-3.6-flash",
     contents=prompt,
     config = types.GenerateContentConfig(
         tools = tools

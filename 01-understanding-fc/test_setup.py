@@ -3,7 +3,7 @@ from google import genai
 client = genai.Client()
 
 response = client.models.generate_content(
-    model="gemini-2.0-flash",
+    model="gemini-3.6-flash",
     contents="Write a short story about a robot learning to dance."
 )
 

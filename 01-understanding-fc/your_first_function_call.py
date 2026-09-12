@@ -56,7 +56,7 @@ config = types.GenerateContentConfig(
 user_question = "I need a secure password that's 15 characters long and includes special symbols"
 
 response = client.models.generate_content(
-    model="gemini-2.5-flash",
+    model="gemini-3.6-flash",
     contents=user_question,
     config=config
 )

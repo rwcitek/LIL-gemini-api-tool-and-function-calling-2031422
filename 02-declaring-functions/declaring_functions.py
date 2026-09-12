@@ -111,7 +111,7 @@ user_question = "Can you get me a list of 5 users including their email addresse
 user_question2 = "Show me the detailed information for user 3"
 
 response = client.models.generate_content(
-    model="gemini-2.5-flash",
+    model="gemini-3.6-flash",
     contents=user_question2,
     config=config
 )

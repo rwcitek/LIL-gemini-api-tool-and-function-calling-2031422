@@ -14,7 +14,7 @@ config = types.GenerateContentConfig(
 prompt = "Who won the 2025 US Open?"
 
 response = client.models.generate_content(
-    model="gemini-2.5-flash",
+    model="gemini-3.6-flash",
     contents=prompt,
     config=config
 )

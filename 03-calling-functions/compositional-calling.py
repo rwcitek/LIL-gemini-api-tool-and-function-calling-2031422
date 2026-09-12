@@ -128,7 +128,7 @@ config = types.GenerateContentConfig(
 prompt = "Can you look up where user123 is located, get a 3-day weather forecast for their city, then send a notification with the weather summary"
 
 response = client.models.generate_content(
-    model="gemini-2.5-flash",
+    model="gemini-3.6-flash",
     contents=prompt,
     config=config
 )
