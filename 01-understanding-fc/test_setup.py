@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 from google import genai
 
 client = genai.Client()
